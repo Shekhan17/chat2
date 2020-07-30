@@ -15,5 +15,5 @@
 *.ipr
 /out/
 
-/target/
-/src/main/resources/assets/upload/
+/chat/target/
+/chat/src/main/resources/assets/upload/
