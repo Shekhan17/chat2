@@ -30,7 +30,7 @@ public class AppController {
     private String assetsPath;
 
 
-    @GetMapping("/")
+    @GetMapping("/greeting")
     public String greeting(Map<String, Object> model) {
         return "greeting";
     }

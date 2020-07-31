@@ -6,6 +6,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 
 @Entity // This tells Hibernate to make a table out of this class
+@Table
 public class Message {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
