@@ -35,11 +35,9 @@ public class Message {
     }
 
     public User getAuthor() {
-
         return author;
     }
     public String getAuthorName() {
-
         return author.getUsername();
     }
 
