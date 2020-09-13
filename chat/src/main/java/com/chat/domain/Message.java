@@ -53,6 +53,7 @@ public class Message {
     }
 
     public void setTextMessage(String textMessage) {
+
         this.textMessage = textMessage;
     }
 }
